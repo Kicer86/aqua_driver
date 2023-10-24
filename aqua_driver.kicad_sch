@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 319d8a0e-3126-4d1a-9d9a-dfcd23e15958)
+  (uuid 13f34ed6-0d14-48e4-b5f6-041bf4b3feac)
 
   (paper "A4")
 
@@ -1480,6 +1480,24 @@
         (path "/319d8a0e-3126-4d1a-9d9a-dfcd23e15958"
           (reference "C1") (unit 1)
         )
+      )
+    )
+  )
+
+
+  (sheet (at 226.06 29.21) (size 36.83 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6b54b7a5-447c-4fb7-b277-0f2a46909ede)
+    (property "Sheetname" "LED Module" (at 226.06 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "led_module.kicad_sch" (at 226.06 52.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "aqua_driver"
+        (path "/13f34ed6-0d14-48e4-b5f6-041bf4b3feac" (page "2"))
       )
     )
   )
