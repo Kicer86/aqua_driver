@@ -475,6 +475,10 @@
     [
       "6b54b7a5-447c-4fb7-b277-0f2a46909ede",
       "LED Module"
+    ],
+    [
+      "69649255-1b7b-4c8f-87b6-535612047ea6",
+      "Temperature control"
     ]
   ],
   "text_variables": {}
