@@ -471,6 +471,18 @@
     [
       "13f34ed6-0d14-48e4-b5f6-041bf4b3feac",
       ""
+    ],
+    [
+      "62d579a5-872f-42b1-a877-13738f5c9cc1",
+      "Temperature control"
+    ],
+    [
+      "71a6ae5c-55a9-4b5c-995f-cf8e92b61589",
+      "Power"
+    ],
+    [
+      "a0edc922-1405-4b8d-a73b-04ed23099c00",
+      "LED Module"
     ]
   ],
   "text_variables": {}
