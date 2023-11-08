@@ -26,9 +26,18 @@
     (property "Sheetfile" "temperature_control.kicad_sch" (at 24.13 37.4146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (property "Footprint" "" (at 115.57 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 115.57 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b108fd3d-5d87-4db4-b59c-edc81bd92df7))
     (instances
       (project "aqua_driver"
-        (path "/13f34ed6-0d14-48e4-b5f6-041bf4b3feac" (page "2"))
+        (path "/13f34ed6-0d14-48e4-b5f6-041bf4b3feac"
+          (reference "#PWR021") (unit 1)
+        )
       )
     )
   )
