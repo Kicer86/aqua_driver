@@ -322,6 +322,10 @@
     [
       "a0edc922-1405-4b8d-a73b-04ed23099c00",
       "LED Module"
+    ],
+    [
+      "c2b58e3c-fd64-47de-8341-9bd2a4eed71c",
+      "Bluetooth module"
     ]
   ],
   "text_variables": {}

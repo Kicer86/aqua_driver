@@ -67,6 +67,23 @@
     )
   )
 
+  (sheet (at 25.4 83.82) (size 46.99 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c2b58e3c-fd64-47de-8341-9bd2a4eed71c)
+    (property "Sheetname" "Bluetooth module" (at 25.4 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "bluetooth_module.kicad_sch" (at 25.4 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "aqua_driver"
+        (path "/13f34ed6-0d14-48e4-b5f6-041bf4b3feac" (page "5"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
