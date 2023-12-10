@@ -22,3 +22,17 @@
     - Notifying the mobile application about:
         - Loss of mains power supply
 - All settings and configurations stored in non-volatile memory that does not require power.
+
+
+## Goals for version 1.0:
+-   single board with AVR µC
+-   RN4871 bluetooth module
+-   temperature measurement (possibly with redundancy)
+-   heater control (ON/OFF)
+-   external power supply (12V)
+-   bluetooth communication:
+    - current temperature readings and settings
+    - heater status (ON/OFF)
+-   App (PC or Android) able to connect to board:
+    - display information and status
+    - set desired temperature
