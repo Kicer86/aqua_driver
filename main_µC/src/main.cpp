@@ -2,6 +2,7 @@
 #include <avr/io.h>
 
 #include "avr-lib/include/math.hpp"
+#include "avr-lib/include/devices/usart.hpp"
 
 #ifndef F_CPU
 #error "F_CPU is not set"
@@ -39,6 +40,10 @@ void setupUSART()
 
 int main()
 {
-    setupUSART<115200, true, 1>();
+    //setupUSART<115200, true, 1>();
+
+    Usart usart;
+    usart.configure(true, true, Baudrate::BR115200, Usart::None, Usart::S1, Usart::D8);
+
     while(true);
 }
