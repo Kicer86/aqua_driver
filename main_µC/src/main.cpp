@@ -1,7 +1,7 @@
 
 #include <avr/io.h>
 
-#include "avr_lib/math.hpp"
+#include "avr-lib/include/math.hpp"
 
 #ifndef F_CPU
 #error "F_CPU is not set"
