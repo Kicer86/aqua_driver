@@ -1,14 +1,14 @@
 
 #include <avr/io.h>
 
-#include "avr-lib/include/math.hpp"
-#include "avr-lib/include/devices/usart.hpp"
-
+#include <devices/usart.hpp>
 
 int main()
 {
     Usart usart;
-    usart.configure<true, true, 115200, Usart::None, Usart::S1, Usart::D8>();
+    usart.configure<true, true, 115200, Usart::Parity::None, Usart::StopBits::S1, Usart::DataSize::D8>();
+    usart.write_PString(PSTR("$$$\r"));
 
     while(true);
 }
+
