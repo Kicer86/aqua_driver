@@ -7,7 +7,12 @@ endif
 
 avr_sources = ['src/main.cpp']
 
-avr_exe = executable('main_uC', avr_sources, cpp_args : ['-DF_CPU=8000000', '-mmcu=attiny2313'])
+incdir  = include_directories(
+  'avr-libstdcpp/include',
+  'avr-lib/include'
+)
+
+avr_exe = executable('main_uC', avr_sources, cpp_args : ['-DF_CPU=8000000', '-mmcu=attiny2313'], include_directories : incdir)
 
 avr_objdump_target = custom_target(
     'avr_objdump',
