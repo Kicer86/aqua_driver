@@ -1,6 +1,4 @@
 
-#include <avr/io.h>
-
 #include <devices/usart.hpp>
 
 int main()
