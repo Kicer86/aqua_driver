@@ -18,6 +18,7 @@ avr_exe = executable(
   cpp_args : [
     '-DF_CPU=8000000',
     '-mmcu=attiny2313',
+    '-std=c++20',
     '--param=min-pagesize=0'                      # TODO: without it gcc generates warnings like here: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105523 but only in certain files
   ],
   include_directories : incdir,
