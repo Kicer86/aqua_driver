@@ -1,0 +1,6 @@
+[submodule "main_µC/avr-lib"]
+	path = main_µC/avr-lib
+	url = https://github.com/Kicer86/avr-lib.git
+[submodule "main_µC/avr-libstdcpp"]
+	path = main_µC/avr-libstdcpp
+	url = https://github.com/modm-io/avr-libstdcpp.git
